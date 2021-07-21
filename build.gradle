@@ -14,10 +14,10 @@ repositories {
 
 dependencies {
     testImplementation(
-            'org.junit.jupiter:junit-jupiter-api:$junitVersion',
-            'com.codeborne:selenide:$selenideVersion',
-            'org.aeonbits.owner:owner:$ownerVersion',
-            'org.assertj:assertj-core:$assertJSVersion'
+            "org.junit.jupiter:junit-jupiter-api:$junitVersion",
+            "com.codeborne:selenide:$selenideVersion",
+            "org.aeonbits.owner:owner:$ownerVersion",
+            "org.assertj:assertj-core:$assertJSVersion",
     )
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:$junitVersion')
 }
